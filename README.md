@@ -2,18 +2,7 @@
 All relevant files and documents relating to the ASU ASCEND Fall 2022 mission
 
 ## What is ASCEND @ ASU?
-
-
-## GanttLab
-How to use:
-1. Go to [GanttLab](https://www.ganttlab.com/)
-2. Open GanttLab
-3. Create a personal access token
-  - Go to [GitHub](https://github.com/)
-  - Click on your profile -> Go to settings -> Scroll down to "<> Developer settings"
-  - Generate new token -> Name the new token -> Set expiration to desired amount -> Select repo scope -> Generate token
-  - Copy token -> Go back to GanttLab -> paste token
-4. All set!
+ASCEND is a NASA Funded High altitude balloon Launch where students create a payload, collect data while airborne, and analyzed said data to present at the Arizona NASA Space Grant Symposium
 
 
 ## Mechanical Subsystem
