@@ -2,7 +2,7 @@
 All relevant files and documents relating to the ASU ASCEND Fall 2022 mission
 
 
-# GanttLab
+## GanttLab
 How to use:
 1. Go to [GanttLab](https://www.ganttlab.com/)
 2. Open GanttLab
