@@ -7,8 +7,8 @@ How to use:
 1. Go to [GanttLab](https://www.ganttlab.com/)
 2. Open GanttLab
 3. Create a personal access token
-  - 3a. Go to [GitHub](https://github.com/)
-  - 3b. Click on your profile -> Go to settings -> Scroll down to "<> Developer settings"
-  - 3c. Generate new token -> Name the new token -> Set expiration to desired amount -> Select repo scope -> Generate token
-  - 3d. Copy token -> Go back to GanttLab -> paste token
+  - Go to [GitHub](https://github.com/)
+  - Click on your profile -> Go to settings -> Scroll down to "<> Developer settings"
+  - Generate new token -> Name the new token -> Set expiration to desired amount -> Select repo scope -> Generate token
+  - Copy token -> Go back to GanttLab -> paste token
 4. All set!
