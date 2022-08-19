@@ -23,7 +23,9 @@ The radio subsystem is responsible for keeping a real time link between the payl
 
 ## Meteorology
 
-## Resources
+
+## Resource
+
 #### GanttLab
 How to use:
 1. Go to [GanttLab](https://www.ganttlab.com/)
