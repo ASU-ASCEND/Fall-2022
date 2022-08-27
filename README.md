@@ -9,11 +9,11 @@ ASCEND is a NASA Funded High altitude balloon Launch where students create a pay
 The electrical subsystem is responsible for connecting the sensors, microprocessors, and batteries properly powering and communicating with one another. These components will fit within the payload’s designated position simultaneously meeting weight requirements.
 
 
-## Radio
+## Radio Subsystem
 The radio subsystem is responsible for keeping a real time link between the payload and the ground station. The radio section on the payload consists of a LoRa module on the main board and a feedline coming from it to and external antenna(also assembled in the lab) located outside the payload. The ground station simply consists of an arduino connected to a computer to output the serial data and a feedline that leads to a directional yagi antenna which we can assemble in the lab. 
 
 
-## Meteorology
+## Meteorology Subsystem
 The Meteorology Subsystem timeline for the Fall will be as follows: 
 Calibrate new temperature and humidity sensors for our expected temperature and relative humidity range (40 C to -75 C, 0% to 100%). Write a MATLAB code to calculate pressure levels with respect to geopotential height using the hypsometric equation. Write a MATLAB code to convert GPS data into wind speed and direction with respect to pressure levels. Run MATLAB codes with obtained data, and complete a sounding analysis. Time permitting, we plan to write a MATLAB code to automatically complete a sounding analysis for us. This will allow us to automate soundings in real time utilizing the Radio subsystem's hard work. We will also export our data from MATLAB to R to create plots. This will serve as a way to teach new members R, and is an important step in presenting our data to non meteorologists. 
 
@@ -22,7 +22,7 @@ The Spring semester will serve as an opportunity to complete research in the atm
 The Meteorology Subsystem will hold various workshops throughout the year, open to all ASCEND members. Workshops will be directly relevant to the subsystem's missions, with an emphasis on providing non meteorologists a background sufficient to understand our missions.
 
 
-## Programming
+## Programming Subsystem
 The six sensors will be recording data and need to be programmed to work as intended. The programming subsystem will take charge of the software development side of getting the various sensors (pressure, humidity, temperature) to cooperate with three subsystems Radio, Electrical, and Meteorology.
 
 
