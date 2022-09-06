@@ -9,12 +9,8 @@ ASCEND is a NASA Funded High altitude balloon Launch where students create a pay
 The electrical subsystem is responsible for connecting the sensors, microprocessors, and batteries properly powering and communicating with one another. These components will fit within the payload’s designated position simultaneously meeting weight requirements.
 
 
-## Radio Subsystem
-The radio subsystem is responsible for keeping a real time link between the payload and the ground station. The radio section on the payload consists of a LoRa module on the main board and a feedline coming from it to and external antenna(also assembled in the lab) located outside the payload. The ground station simply consists of an arduino connected to a computer to output the serial data and a feedline that leads to a directional yagi antenna which we can assemble in the lab. 
-
-
-## Meteorology Subsystem
-The Meteorology Subsystem timeline for the Fall will be as follows: 
+## Meteorology Science Mission
+The Meteorology Science Mission timeline for the Fall will be as follows: 
 Calibrate new temperature and humidity sensors for our expected temperature and relative humidity range (40 C to -75 C, 0% to 100%). Write a MATLAB code to calculate pressure levels with respect to geopotential height using the hypsometric equation. Write a MATLAB code to convert GPS data into wind speed and direction with respect to pressure levels. Run MATLAB codes with obtained data, and complete a sounding analysis. Time permitting, we plan to write a MATLAB code to automatically complete a sounding analysis for us. This will allow us to automate soundings in real time utilizing the Radio subsystem's hard work. We will also export our data from MATLAB to R to create plots. This will serve as a way to teach new members R, and is an important step in presenting our data to non meteorologists. 
 
 The Spring semester will serve as an opportunity to complete research in the atmosphere, as all of our sensors from the Fall semesters will be easily reused. Currently plans are to study the vertical spatial distribution of precursors involved in the formation of surface level ozone and cloud condensation nuclei. Research will be conducted as if we were writing a paper to be published. Input from new members will be strongly considered when designing the timeline for the Spring semester.
