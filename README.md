@@ -26,7 +26,7 @@ The six sensors will be recording data and need to be programmed to work as inte
 The mechanical subsystem is responsible for four (4) aspects: a comprehensive CAD model of the payload, the payload design, the construction of the payload, and  the organization of the parts and components within the payload.
 
 
-## Resource
+## Resources
 
 #### GanttLab
 How to use:
