@@ -1,0 +1,7 @@
+Notes
+  CMG Block Diagram:
+    - Could reroute the battery directly to the power controller.
+    - There is the option for the arduino processor to run as the power controller, but I would lean towards what makes Anyell's and programming's life easier. So utilizing a 			  motor controller chip or a drone flight stack is probably the right idea.
+    - I think it might be wise to have the option to utilize a resistance heater. I agree that the motors will generate a fair amount of thermal energy, but it's not much            extra to add a heater trace (for redundancy). We've been using a few in the TVAC in the lab with relative ease (my intent was to copy what has been used there).
+    - The motors do have a third wire that is sending and receiving data, but it's Pulse Width Modulation (PWM) signals which will be managed by the motor controller. The data       we care about is angle of servo motor and rpm of DC-motor.
+    - The cameras we have and that I was intending on using are RunCam 5 Oranges. In the past we had them running independent from the system. I believe it is possible to read       the RunCam 5 Orange data off of the UART port, but I don't know how. Seems like a fun challenge for the programming subsystem
