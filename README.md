@@ -19,7 +19,7 @@ The Meteorology Subsystem will hold various workshops throughout the year, open 
 
 
 ## Programming Subsystem
-The six sensors will be recording data and need to be programmed to work as intended. The programming subsystem will take charge of the software development side of getting the various sensors (GPS, Humidity, Temperature) to cooperate with three subsystems Radio, Electrical, and Meteorology.
+The sensors will be recording data and need to be programmed to work as intended. The programming subsystem will take charge of the software development side of getting the various sensors (GPS, Humidity, Temperature) to cooperate with other subsystems and science missions.
 
 
 ## Mechanical Subsystem
