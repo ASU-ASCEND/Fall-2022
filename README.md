@@ -29,4 +29,11 @@ How to use:
   - Click on your profile -> Go to settings -> Scroll down to "<> Developer settings"
   - Generate new token -> Name the new token -> Set expiration to desired amount -> Select repo scope -> Generate token
   - Copy token -> Go back to GanttLab -> paste token
-4. All set!
+4. Create a new issue
+  - Assign a milestone
+  - Include:
+  "GanttStart: 2022-09-13
+   GanttDue: 2022-09-29"
+   * Format: YYYY-MM-DD *
+  - Done
+5. All done!
