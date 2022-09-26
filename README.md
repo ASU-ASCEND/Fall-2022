@@ -31,9 +31,8 @@ How to use:
   - Copy token -> Go back to GanttLab -> paste token
 4. Create a new issue
   - Assign a milestone
-  - Include:
+  - Include:\\
   "GanttStart: 2022-09-13
-   GanttDue: 2022-09-29"
-   * Format: YYYY-MM-DD *
-  - Done
+   GanttDue: 2022-09-29" in the text of your issue
+  - Format: YYYY-MM-DD
 5. All done!
