@@ -26,8 +26,7 @@ String file_name = "Data.csv"; // File name must follow 8.3 rule. <= 8 character
 File ascendDataObj;            // Create a File object, that allows for reading and writing data. (FJ 10/9)
 
 //**********BATTERY DECLARATIONS*****
-
-//int battPin = A6; //Not sure if this is the pin we will be using for the battery (FJ 10/9) 
+int battPin = A6; //Not sure if this is the pin we will be using for the battery (FJ 10/9) 
 float voltage; //float value for voltage reading (FJ 10/9)
 
 void setup() {
