@@ -7,7 +7,7 @@ Last updated 10/9/2022 11:33 PM by Feras Jayyusi
 
 Description: This program is for the Fall2022 ASCEND Payload at ASU. Much of the code is taken from StratoDevilCodeV2.1.0 with permission from David Lopez, 
 therefore, this program should be considered an updated version of it. The payload utilizes two Arduinos of different models, "Arduino Nano" and "Arduino Nano Every".
-This program is intended to be upload to the "Arduino Nano" and NOT the "Arduino Nano Every". (FJ 10/9)
+This program is intended to be uploaded to the "Arduino Nano" and NOT the "Arduino Nano Every". (FJ 10/9)
 
 NOTE FOR DEVELOPERS - Please comment on every line of code you write describing its function. Whenever you make a comment to the code, please add your initials at the end. 
 Example: //This is a comment HI! :D (FJ 10/9)
