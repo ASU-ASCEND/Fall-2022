@@ -1,3 +1,6 @@
+
+//Uncommented all serial.print
+
 //******************Libraries**********************************************
 #include <Arduino.h>
 #include <Adafruit_Sensor.h>    //Library for many Adafruit sensor libraries. REQUIRED.
