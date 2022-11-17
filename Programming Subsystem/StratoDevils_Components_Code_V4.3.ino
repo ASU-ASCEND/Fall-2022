@@ -269,7 +269,7 @@ dataString += ", ";
   //Serial.print("Temperature: "); Serial.print(temp.temperature); Serial.println(" degC");
 
   //****************TMP36's********************
-  int inTmpA = analogRead(A0) * (5.0 / 1024.0); // For memory purposes it might be best to just get the analog reading and convert it into Excel later
+  int inTmpA = analogRead(A0) * (5.0 / 1024.0); 
   int extTmpA = analogRead(A1) * (5.0 / 1024.0);
   float inTmpC = (inTmpV - 0.5) * 100;
   float extTmpC = (extTmpV - 0.5) * 100;
