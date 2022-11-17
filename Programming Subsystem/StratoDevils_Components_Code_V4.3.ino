@@ -62,6 +62,8 @@ long lat, lon;
 unsigned long fix_age; 
 unsigned long currentTime = 0;
 float sensorVal;
+float inTmpV;
+float extTmpV;
 boolean groundMode = 0;
 // Variable for file name
 char logFileName[16];
@@ -266,16 +268,18 @@ dataString += ", ";
   //Serial.print("Rotation X: "); Serial.print(g.gyro.x); Serial.print(", Y: "); Serial.print(g.gyro.y); Serial.print(", Z: "); Serial.print(g.gyro.z); Serial.println(" rad/s");
   //Serial.print("Temperature: "); Serial.print(temp.temperature); Serial.println(" degC");
 
- //****************TMP36's********************
-  int inTmpA = analogRead(A0);// * (5.0 / 1024.0); // For memory purposes it might be best to just get the analog reading and convert it into Excel later
-  int extTmpA = analogRead(A1);// * (5.0 / 1024.0);
-//  float inTmpC = (inTmpV - 0.5) * 100;
-//  float extTmpC = (extTmpV - 0.5) * 100;
+  //****************TMP36's********************
+  int inTmpA = analogRead(A0) * (5.0 / 1024.0); // For memory purposes it might be best to just get the analog reading and convert it into Excel later
+  int extTmpA = analogRead(A1) * (5.0 / 1024.0);
+  float inTmpC = (inTmpV - 0.5) * 100;
+  float extTmpC = (extTmpV - 0.5) * 100;
   Serial.print("Internal Temperature Analog: ");Serial.println(inTmpA);
   Serial.print("External Temperature Analog: ");Serial.println(extTmpA);
-  dataString += String(inTmpA);
+  Serial.print("Internal Temperature Celcius: ");Serial.println(inTmpC);
+  Serial.print("External Temperature Celcius: ");Serial.println(extTmpC);
+  dataString += String(inTmpC);
   dataString += ", ";
-  dataString += String(extTmpA);
+  dataString += String(extTmpC);
   dataString += ", ";
 
 
